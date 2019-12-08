@@ -1,0 +1,197 @@
+@import 'fonts.css';
+@import '~normalize.css/normalize.css';
+
+:root {
+    /* Color Schema */
+    /* Use this service for naming - http://chir.ag/projects/name-that-color */
+    --night-pearl-color: #031321;
+    --black-pearl-color: #212121;
+    --transparent-black-pearl-color: rgba(54, 54, 54, 0.8);
+    --big-stone-color: #142739;
+    --pickled-bluewood-color: #3c3c3c;
+    --transparent-blumine-color: rgba(30, 87, 123, 0.3);
+    --dark-blumine-color: #363636;
+    --blumine-color: #cc9900;
+    --ming-color: #e6c638;
+    --calypso-color: #e6c638;
+    --mariner-color: #e6b800;
+    --jelly-bean-color: #cc9900;
+    --steel-blue-color: #cc9900;
+    --scooter-color: #858585;
+    --pelorous-color: #4a4a4a;
+    --sail-color: #cc9900;
+    --bali-hai-color: #bfbfbf;
+    --watercourse-color: #e6c638;
+    --emerald-color: #cc9900;
+    --transparent-emerald-color: rgba(146, 146, 146, 0.15);
+    --algae-green-color: #e6b800;
+    --sunglo-color: #e87373;
+    --mandys-pink-color: #f4bdbd;
+    --azalea-color: #fbdede;
+    --transparent-geyser-color: rgba(146, 146, 146, 0.3);
+    --stone-gray-color: rgba(240, 244, 247, 0.6);
+    --rolling-stone-color: #757e85;
+    --hit-gray-color: #bfbfbf;
+    --nobel-color: #bfbfbf;
+    --tower-gray-color: #b1bac1;
+    --geyser-color: #d7dfe4;
+    --porcelain-color: #e3e6e8;
+    --mystic-color: #9d9d9d;
+    --darker-mystic-color: #dfe6ec;
+    --aqua-haze-color: #d5d5d5;
+    --athens-gray-color: #e7eaed;
+
+    --navigation-card-svg-stroke-color: var(--mariner-color);
+    --navigation-card-svg-fill-color: var(--sail-color);
+
+    --button-text-shadow-color: rgba(0, 0, 0, 0.15);
+    --button-shadow-color: rgba(0, 0, 0, 0.2);
+    --button-primary-color: var(--blumine-color);
+    --button-success-color: var(--emerald-color);
+    --button-primary-hov-color: var(--bali-hai-color);
+    --button-success-hov-color: var(--algae-green-color);
+    --button-hover-color: var(--jelly-bean-color);
+    --coin-button-border-color: var(--calypso-color);
+    --coin-button-bg-color: var(--dark-blumine-color);
+    --coin-button-shadow-color: var(--transparent-geyser-color);
+
+    --loading-bg-color: var(--transparent-black-pearl-color);
+
+    --error-text-color: var(--sunglo-color);
+    --error-border-light-color: var(--azalea-color);
+    --error-border-dark-color: var(--mandys-pink-color);
+
+    --toast-success-bg-color: var(--emerald-color);
+    --toast-error-bg-color: var(--sunglo-color);
+
+    --app-bg-color: var(--aqua-haze-color);
+    --sign-pages-bg-color: var(--black-pearl-color);
+    --bar-color: var(--black-pearl-color);
+    --figure-subtitle-color: var(--bali-hai-color);
+    --page-subheader-color: var(--big-stone-color);
+    --copyright-color: var(--tower-gray-color);
+
+    --footer-border-color: var(--geyser-color);
+
+    --link-color: var(--bali-hai-color);
+    --navigation-bg-color: var(--blumine-color);
+    --active-item-color: var(--scooter-color);
+    --hover-icon-color: var(--emerald-color);
+
+    --general-text-color: var(--blumine-color);
+    --general-hover-text-color: var(--bali-hai-color);
+    --general-dark-text-color: var(--black-pearl-color);
+    --label-color: var(--tower-gray-color);
+    --input-helper-text-color: var(--rolling-stone-color);
+
+    --input-border-color: var(--porcelain-color);
+    --border-on-light-color: var(--athens-gray-color);
+    --border-on-dark-color: var(--pickled-bluewood-color);
+
+    --table-text-color: var(--big-stone-color);
+    --table-label-color: var(--bali-hai-color);
+    --table-total-cell-bg-color: var(--stone-gray-color);
+
+    --breadcrumb-item-color: var(--emerald-color);
+    --breadcrumb-current-item-color: var(--tower-gray-color);
+    --breadcrumb-arrow-color: var(--athens-gray-color);
+
+    --producers-filter-bg-color: var(--mystic-color);
+    --filter-checkbox-hov-bg-color: var(--blumine-color);
+    --checked-filter-checkbox-bg-color: var(--jelly-bean-color);
+    --filter-checkbox-icon-color: var(--jelly-bean-color);
+    --filter-checkbox-border-color: var(--athens-gray-color);
+    --filter-checkbox-checked-border-color: var(--steel-blue-color);
+    --filter-checkbox-hov-border-color: var(--ming-color);
+
+    --producer-card-bg-color: var(--black-pearl-color);
+    --producer-card-border-color: var(--scooter-color);
+    --producer-card-status: var(--scooter-color);
+    --producer-card-active-bg-color: var(--scooter-color);
+
+    --producer-filters-border-color: var(--geyser-color);
+
+    --option-link-color: var(--tower-gray-color);
+    --option-link-hov-color: var(--hit-gray-color);
+    --option-link-border-color: var(--geyser-color);
+    --option-link-bg-color: var(--mystic-color);
+    --option-link-hov-bg-color: var(--darker-mystic-color);
+
+    --datepicker-selected-day-color: var(--blumine-color);
+    --datepicker-hov-day-color: var(--darker-mystic-color);
+    --datepicker-today-color: var(--scooter-color);
+
+    --confirm-dialog-border-color: var(--darker-mystic-color);
+
+    --select-option-hov-bg-color: var(--blumine-color);
+    --select-option-icon-color: var(--blumine-color);
+    --disabled-select-option-bg-color: var(--athens-gray-color);
+
+    --offer-card-price-color: var(--nobel-color);
+    --offer-card-energy-type-color: var(--black-pearl-color);
+    --offer-card-box-shadow-color: var(--transparent-geyser-color);
+
+    --delta-field-row-color: var(--aqua-haze-color);
+    --delta-field-value-color: var(--black-pearl-color);
+
+    --about-us-info-text-color: var(--big-stone-color);
+
+    --table-control-active-color: var(--geyser-color);
+    --table-control-hover-color: var(--tower-gray-color);
+    --table-control-border-color: var(--transparent-blumine-color);
+
+    --download-icon-color: var(--blumine-color);
+
+    --answer-text-color: var(--big-stone-color);
+    --question-hover-color: var(--pelorous-color);
+    --question-active-color: var(--tower-gray-color);
+    --question-title-border: var(--porcelain-color);
+
+    --slider-control-color: var(--blumine-color);
+    --slider-bullet-color: var(--tower-gray-color);
+    --slider-active-bullet-color: var(--blumine-color);
+
+    --configuration-form-shadow-color: var(--transparent-geyser-color);
+
+    --trade-position-shadow-color: var(--stone-gray-color);
+    --trade-position-general-color: var(--big-stone-color);
+    --trade-position-performed-color: var(--emerald-color);
+
+    --tooltip-shadow-color: var(--stone-gray-color);
+
+    --wizard-primary-color: var(--emerald-color);
+    --wizard-animation-shadow-color: var(--transparent-emerald-color);
+    --wizard-secondary-color: var(--tower-gray-color);
+    --wizard-text-color: var(--bali-hai-color);
+
+    --radio-button-primary-color: var(--emerald-color);
+    --radio-button-secondary-color: var(--scooter-color);
+
+    --checkbox-primary-color: var(--emerald-color);
+    --checkbox-secondary-color: var(--scooter-color);
+
+    --alert-text-color: var(--big-stone-color);
+    --alert-icon-color: var(--mariner-color);
+
+    /* Common sizes */
+    --menu-icon-size: 4.5rem;
+    --footer-nav-height: 5.5em;
+    --border-width: 0.06rem;
+    --page-paddings: 1.5rem 2rem 2rem;
+    --main-boxes-shadow: 0 0.25rem 1rem 0 var(--geyser-color);
+    --side-bar-width: 20.5rem;
+    --focused-control-outline: var(--border-width) dotted var(--steel-blue-color);
+}
+
+#routes,
+#app-layout {
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --page-paddings: 1.5rem 1rem 1rem;
+    }
+}
