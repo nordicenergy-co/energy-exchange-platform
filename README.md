@@ -20,7 +20,7 @@
 
 ## How it Works?
 
-![how-it-works](https://raw.githubusercontent.com/nordicenergy/energy-exchange-platform/master/media/how-it-works.png)
+!how it works](https://github.com/nordicenergy/energy-exchange-platform/origin/media/how-it-works.png)
 
 #
 
