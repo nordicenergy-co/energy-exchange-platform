@@ -21,7 +21,7 @@
 ## How it Works?
 
 ![how-it-works](https://raw.githubusercontent.com/nordicenergy/energy-exchange-platform/master/media/how-it-works.png)
-```
+
 
 This repository shows the frontend for the energy use case, which is the world's first peer to peer energy trading platform commercially available to a mass market. You can test it at https://powerchain.nordicenergy.co with the credentials demo / demo1234. The Frontend part of its trading platform is built with modern JavaScript, HTML and CSS, but there are some helpers: [React](https://reactjs.org/) as a framework, [Jest](https://jestjs.io/en/) as a testing tool and [Styleguidist](https://react-styleguidist.js.org/) as a source of documentation.
 
