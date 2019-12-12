@@ -20,9 +20,9 @@
 
 This repository shows the frontend for the energy use case, which is the world's first peer to peer energy trading platform commercially available to a mass market. You can test it at https://powerchain.nordicenergy.co with the credentials demo / demo1234. The Frontend part of its trading platform is built with modern JavaScript, HTML and CSS, but there are some helpers: [React](https://reactjs.org/) as a framework, [Jest](https://jestjs.io/en/) as a testing tool and [Styleguidist](https://react-styleguidist.js.org/) as a source of documentation.
 
-There are several articles written by Nordic Energy Developers which describe the chosen approaches of development in full. Links to them can be found below:
+There are several articles written by Nordic Energy team which describe the chosen approaches of development in full. Links to them can be found below:
 
-1. [React architecture and approach](https://medium.com/lnordicenergy-blog/powerchain-and-react-js-devblog-90843c9f1d10)
+1. [React architecture and approach](https://medium.com/nordicenergy-blog/powerchain-and-react-js-devblog)
 2. [Layout](https://medium.com/nordicenergy-blog/layout-of-trading-platform-devblog)
 3. [Testing](https://medium.com/nordicenergy-blog/tests-docs-for-powerchain-frontend)
   
