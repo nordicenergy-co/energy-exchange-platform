@@ -18,7 +18,7 @@
 [Nordic Energy](https://www.nordicenergy.co) is developing the scalable public-private blockchain with deletable data features, made for commercial products. Designed with peer-to-peer energy trading use case, and co-innovated with SAP.
 
 
-
+# How it Works?
 
 <img src="/docs/how-it-works.png" alt="How it Works"/>
 
