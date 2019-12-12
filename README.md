@@ -20,7 +20,7 @@
 
 
 
-<img src="/media/how-it-works.png" alt="How it Works"/>
+<img src="/docs/how-it-works.png" alt="How it Works"/>
 
 #
 
